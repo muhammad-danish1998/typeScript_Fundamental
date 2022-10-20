@@ -1,3 +1,27 @@
+// ---------------  For installation ------------ 
+// npm i -g typescript
+// tsc -v
+
+// ------------- Creating tsc config file ------------ 
+
+// tsc --init
+
+// ------------ Creating package file ------------------
+
+// npm init
+
+// ============== Key Point For setup ================ 
+
+// from tsconfig file when can target es5 and es6
+// outDir "./dist" -----------> Js file will be there
+// rootDir: "./src" -----------> TS file will be there
+// tsc compile the program
+
+// tsc --watch index
+
+
+
+
 // -------------- Basic Type ------------------
 
 // let id: number = 12;
@@ -126,8 +150,8 @@
 
 // ------------------ Function Type Void -------------
 
-const msg = (value : string | number) : void =>{
-console.log(value)
-}
-msg("Danish");
-msg(24);
+// const msg = (value : string | number) : void =>{
+// console.log(value)
+// }
+// msg("Danish");
+// msg(24);
